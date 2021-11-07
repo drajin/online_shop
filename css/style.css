@@ -1,3 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 900;
+}
+
+a {
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #ccf381;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.topbar {
+  background: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+.topbar a:hover {
+  color: #4831d4;
+}
+
+nav {
+  display: flex;
+  padding: 15px 50px;
+  border-bottom: 4px solid #ccf381;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav .logo {
+  flex: 3;
+  color: #333;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+nav .logo span {
+  color: #ccf381;
+  font-style: italic;
+  text-shadow: 0 0 2px #333;
+}
+nav ul {
+  flex: 6;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .icons {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .icons a {
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
