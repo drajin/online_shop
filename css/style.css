@@ -33,13 +33,13 @@ ul {
   margin: auto;
 }
 
-.topbar {
+.topbar, .bottomBar {
   background: #f7f7f7;
   display: flex;
   justify-content: space-between;
   padding: 5px 50px;
 }
-.topbar a:hover {
+.topbar a:hover, .bottomBar a:hover {
   color: #4831d4;
 }
 
@@ -72,6 +72,52 @@ nav .icons {
   justify-content: flex-end;
 }
 nav .icons a {
+  margin-left: 20px;
+}
+
+footer {
+  padding: 100px 0;
+  background: #4831d4;
+  color: #fff;
+}
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container .col {
+  flex: 1;
+}
+footer .container .col h3 {
+  font-size: 1.7rem;
+  padding-bottom: 40px;
+}
+footer .container .col ul {
+  line-height: 2;
+}
+footer .container .col ul a {
+  color: #ccf381;
+}
+footer .container .col ul a:hover {
+  color: #fff;
+}
+footer .container .col p {
+  margin-bottom: 10px;
+}
+footer .container .col input[type=email] {
+  padding: 12px;
+}
+footer .container .col input[type=submit] {
+  padding: 8px;
+  background: #ccf381;
+  border: none;
+  position: relative;
+  left: -20px;
+}
+
+.bottomBar {
+  background: #ccf381;
+}
+.bottomBar a {
   margin-left: 20px;
 }
 
