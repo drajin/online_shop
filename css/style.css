@@ -46,6 +46,18 @@ ul {
   background: #ccf381;
 }
 
+.headers {
+  background: #f7f7f7;
+  padding: 50px;
+  text-align: center;
+}
+.headers h2 {
+  font-size: 2.5rem;
+}
+.headers p {
+  font-weight: 300;
+}
+
 .topbar, .bottomBar {
   background: #f7f7f7;
   display: flex;
@@ -200,6 +212,68 @@ header button:hover {
   margin-right: 30px;
   text-decoration: line-through;
   color: blue;
+}
+
+.security {
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.security .col {
+  flex: 0 0 23%;
+  text-align: center;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px #b7b6b6;
+  padding: 30px;
+}
+.security .col i {
+  color: #ccf381;
+  text-shadow: 0 0 2px #333;
+  font-size: 2rem;
+}
+.security .col h3 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.offer {
+  background-image: url("../img/shop.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  border-top: 2px solid #ccf381;
+}
+.offer .container {
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.offer .container h4 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.offer .container h2 {
+  font-size: 6rem;
+}
+.offer .container button {
+  padding: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  background: #ccf381;
+  border: none;
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.offer .container button:hover {
+  cursor: pointer;
+  background: #4831d4;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

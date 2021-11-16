@@ -77,6 +77,19 @@ ul {
   }
 }
 
+//headers
+.headers {
+  background: $lightgray;
+  padding: 50px;
+  text-align: center;
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+
 //top bar
 
 .topbar {
@@ -231,6 +244,60 @@ header {
           color: blue;
         }
       }
+    }
+  }
+}
+
+//security
+
+.security {
+  padding: $padding;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .col {
+    flex:  0 0 23%;
+    text-align: center;
+    border: 1px solid $gray;
+    box-shadow: $boxShadow;
+    padding: 30px;
+    i {
+      color: $green;
+      text-shadow: $textShadow;
+      font-size: 2rem;
+    }
+    h3 {
+      padding: 10px 0;
+      font-size: 1.5rem;
+    }
+  }
+}
+//offer
+
+.offer {
+  background-image: url("../img/shop.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  border-top: 2px solid $green;
+  .container {
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    h4 {
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 6rem;
+    }
+    button {
+      @include btn;
+      margin-bottom: 30px;
     }
   }
 }
